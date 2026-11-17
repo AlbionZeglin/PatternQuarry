@@ -1,0 +1,124 @@
+{
+  "disclosure": "Original pattern text; fictional examples where stated. No AI generation in this prototype. Control references are candidate links, not a compliance assessment.",
+  "evidence": [
+    {
+      "anchor": "00:10–00:14",
+      "author": "Demo editor",
+      "date": "2026-11-17T13:16:03.653207+00:00",
+      "id": "EXC-9b2dbed4a3",
+      "license": "CC0-1.0",
+      "rev": 1,
+      "sha256": "0aba59b20f14bbb25f51c8402a68045580b12d88ea6b3db84d049c765ccb4248",
+      "source": "Original fictional interview, reviewed public summary",
+      "text": "Fictional incident: before deploying, the team wrote down a queue-delay threshold, a rollback owner, and a decision time. Speed competed with reversibility. A rehearsal made the threshold usable. The patch completed; one earlier test failed because nobody watched the signal. Monitoring and rehearsal cost staff time. This practice recurs in bounded releases, but fails if rollback is impossible or monitoring is stale. A second rehearsal used the same form. Candidate evidence: approved stop criteria and rehearsal record; technical validation is required."
+    }
+  ],
+  "exporter_version": "1.0.0",
+  "id": "REL-c838418c87",
+  "input_sha256": "790351c3cd5228fca5955d04b7519bfa01a67c362131277ec231df85ed82a627",
+  "pattern": {
+    "author": "Demo editor",
+    "benefits": "The team can act on a signal without renegotiating roles.",
+    "boundaries": "Assumption: signals are timely and rollback is valid. External technical review is needed for thresholds. The interview does not establish causal effectiveness.",
+    "claims": {
+      "benefits": [
+        {
+          "id": "EXC-9b2dbed4a3",
+          "rev": 1
+        }
+      ],
+      "boundaries": [
+        {
+          "id": "EXC-9b2dbed4a3",
+          "rev": 1
+        }
+      ],
+      "context": [
+        {
+          "id": "EXC-9b2dbed4a3",
+          "rev": 1
+        }
+      ],
+      "controls": [
+        {
+          "id": "EXC-9b2dbed4a3",
+          "rev": 1
+        }
+      ],
+      "costs": [
+        {
+          "id": "EXC-9b2dbed4a3",
+          "rev": 1
+        }
+      ],
+      "exceptions": [
+        {
+          "id": "EXC-9b2dbed4a3",
+          "rev": 1
+        }
+      ],
+      "forces": [
+        {
+          "id": "EXC-9b2dbed4a3",
+          "rev": 1
+        }
+      ],
+      "instances": [
+        {
+          "id": "EXC-9b2dbed4a3",
+          "rev": 1
+        }
+      ],
+      "problem": [
+        {
+          "id": "EXC-9b2dbed4a3",
+          "rev": 1
+        }
+      ],
+      "resulting_context": [
+        {
+          "id": "EXC-9b2dbed4a3",
+          "rev": 1
+        }
+      ],
+      "solution": [
+        {
+          "id": "EXC-9b2dbed4a3",
+          "rev": 1
+        }
+      ]
+    },
+    "context": "A bounded release with observable service signals.",
+    "controls": "Candidate technical control: change recovery testing. Possible evidence: stop criteria and dated rehearsal record.",
+    "costs": "Rehearsal effort and monitoring overhead.",
+    "date": "2026-11-17T13:16:03.680419+00:00",
+    "exceptions": "Irreversible migrations require a different recovery strategy.",
+    "forces": "Release speed; reversibility; confidence in monitoring.",
+    "id": "PAT-6f62d68266",
+    "instances": "Fictional urgent patch and second rehearsal.",
+    "license": "CC0-1.0",
+    "name": "Rehearse the stop rule",
+    "problem": "A team recognizes failure too late to reverse a change.",
+    "relationships": [
+      {
+        "target": "PAT-7d0b3520dc",
+        "type": "parent"
+      }
+    ],
+    "resulting_context": "A release has an executable route back to a known state.",
+    "rev": 2,
+    "solution": "Before release, specify a measurable stop signal, its observer, a rollback owner, and a decision time; rehearse the response."
+  },
+  "review": {
+    "checks": {
+      "consent": true,
+      "disclosure": true,
+      "licensing": true,
+      "redaction": true
+    },
+    "date": "2026-11-17T13:16:03.684031+00:00",
+    "note": "Reviewed original fictional summaries and original pattern wording; no real participant information. CC0-1.0 applies to the demo content.",
+    "reviewer": "Demo reviewer"
+  },
+  "schema_version": "1.0"
+}

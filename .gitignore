@@ -1,0 +1,17 @@
+data/
+__pycache__/
+*.pyc
+dist/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+.DS_Store
+.venv/
+.env
+.env.*
+/screenshot.png
+/workbench.png
+/mobile.png

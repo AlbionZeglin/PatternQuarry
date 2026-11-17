@@ -1,0 +1,124 @@
+{
+  "disclosure": "Original pattern text; fictional examples where stated. No AI generation in this prototype. Control references are candidate links, not a compliance assessment.",
+  "evidence": [
+    {
+      "anchor": "00:15–00:18",
+      "author": "Demo editor",
+      "date": "2026-11-17T13:16:03.656556+00:00",
+      "id": "EXC-7960b1aa42",
+      "license": "CC0-1.0",
+      "rev": 1,
+      "sha256": "fcf1b07b7d4176329f3d48941a1ed9ab3f64f45edc52026efcf47b7c86635569",
+      "source": "Original fictional interview, reviewed public summary",
+      "text": "Fictional incident: the handoff included a short receipt listing the change, signals to watch, the next owner, and an acknowledgement. A long email had previously gone unread. Completeness competed with attention. The receipt reduced ambiguity in two rehearsed handoffs, with the cost of maintaining a concise summary. It helps across shifts; it fails when the receiving team lacks authority or cannot acknowledge. Candidate evidence: acknowledged handoff record; do not treat acknowledgement as proof of effectiveness."
+    }
+  ],
+  "exporter_version": "1.0.0",
+  "id": "REL-f0a415867c",
+  "input_sha256": "06ab6c7c089978974a75c8cc6a3ae3c59b0d8a0016d206bfac601188859ef5cb",
+  "pattern": {
+    "author": "Demo editor",
+    "benefits": "Ambiguity is visible before the sender leaves.",
+    "boundaries": "Assumption: the receiver can act. Seek a counterexample from an unstaffed shift. Acknowledgement is not evidence of effectiveness.",
+    "claims": {
+      "benefits": [
+        {
+          "id": "EXC-7960b1aa42",
+          "rev": 1
+        }
+      ],
+      "boundaries": [
+        {
+          "id": "EXC-7960b1aa42",
+          "rev": 1
+        }
+      ],
+      "context": [
+        {
+          "id": "EXC-7960b1aa42",
+          "rev": 1
+        }
+      ],
+      "controls": [
+        {
+          "id": "EXC-7960b1aa42",
+          "rev": 1
+        }
+      ],
+      "costs": [
+        {
+          "id": "EXC-7960b1aa42",
+          "rev": 1
+        }
+      ],
+      "exceptions": [
+        {
+          "id": "EXC-7960b1aa42",
+          "rev": 1
+        }
+      ],
+      "forces": [
+        {
+          "id": "EXC-7960b1aa42",
+          "rev": 1
+        }
+      ],
+      "instances": [
+        {
+          "id": "EXC-7960b1aa42",
+          "rev": 1
+        }
+      ],
+      "problem": [
+        {
+          "id": "EXC-7960b1aa42",
+          "rev": 1
+        }
+      ],
+      "resulting_context": [
+        {
+          "id": "EXC-7960b1aa42",
+          "rev": 1
+        }
+      ],
+      "solution": [
+        {
+          "id": "EXC-7960b1aa42",
+          "rev": 1
+        }
+      ]
+    },
+    "context": "Work passes between shifts or operating teams.",
+    "controls": "Candidate operational control: continuity of responsibility. Possible evidence: dated handoff receipt.",
+    "costs": "A summary must be maintained and acknowledged.",
+    "date": "2026-11-17T13:16:03.687186+00:00",
+    "exceptions": "An acknowledgement cannot confer missing authority.",
+    "forces": "Completeness; attention; continuity of ownership.",
+    "id": "PAT-fc90121788",
+    "instances": "Two fictional rehearsed shift handoffs.",
+    "license": "CC0-1.0",
+    "name": "An acknowledged handoff",
+    "problem": "A sender mistakes a sent message for shared understanding.",
+    "relationships": [
+      {
+        "target": "PAT-7d0b3520dc",
+        "type": "parent"
+      }
+    ],
+    "resulting_context": "The receiving team has accepted the next action.",
+    "rev": 2,
+    "solution": "Send a short receipt naming the change, watch signals, and next owner; obtain an explicit acknowledgement."
+  },
+  "review": {
+    "checks": {
+      "consent": true,
+      "disclosure": true,
+      "licensing": true,
+      "redaction": true
+    },
+    "date": "2026-11-17T13:16:03.690939+00:00",
+    "note": "Reviewed original fictional summaries and original pattern wording; no real participant information. CC0-1.0 applies to the demo content.",
+    "reviewer": "Demo reviewer"
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,128 @@
+{
+  "disclosure": "Original pattern text; fictional examples where stated. No AI generation in this prototype. Control references are candidate links, not a compliance assessment.",
+  "evidence": [
+    {
+      "anchor": "00:05–00:09",
+      "author": "Demo editor",
+      "date": "2026-11-17T13:16:03.650206+00:00",
+      "id": "EXC-18d269c51a",
+      "license": "CC0-1.0",
+      "rev": 1,
+      "sha256": "5c15de60be879c96cf16f75ccdbfe1777c8c59c9395c981d9fad27d3beba2249",
+      "source": "Original fictional interview, reviewed public summary",
+      "text": "Fictional incident: an urgent benefits-service patch had to land before the next run. The service owner and release lead agreed on a named decision owner, a stop authority, and a shared evidence log. This kept urgency from erasing responsibility, but coordination took time. It recurs during urgent cross-team changes. A log alone cannot resolve disputed authority; that needs leadership. The team used it in a patch and a rehearsal. Candidate control evidence: decision log with timestamps; controls specialist review remains necessary."
+    }
+  ],
+  "exporter_version": "1.0.0",
+  "id": "REL-703f110d8c",
+  "input_sha256": "bfc244fe74a762b035913c21e4c15bf4fbd03a9876aeb8ba53ff263477c5501f",
+  "pattern": {
+    "author": "Demo editor",
+    "benefits": "Decisions can be reconstructed and challenged.",
+    "boundaries": "Assumption: leadership accepts the authority assignment. Competing account: rehearsal may explain success better. Seek an external controls specialist.",
+    "claims": {
+      "benefits": [
+        {
+          "id": "EXC-18d269c51a",
+          "rev": 1
+        }
+      ],
+      "boundaries": [
+        {
+          "id": "EXC-18d269c51a",
+          "rev": 1
+        }
+      ],
+      "context": [
+        {
+          "id": "EXC-18d269c51a",
+          "rev": 1
+        }
+      ],
+      "controls": [
+        {
+          "id": "EXC-18d269c51a",
+          "rev": 1
+        }
+      ],
+      "costs": [
+        {
+          "id": "EXC-18d269c51a",
+          "rev": 1
+        }
+      ],
+      "exceptions": [
+        {
+          "id": "EXC-18d269c51a",
+          "rev": 1
+        }
+      ],
+      "forces": [
+        {
+          "id": "EXC-18d269c51a",
+          "rev": 1
+        }
+      ],
+      "instances": [
+        {
+          "id": "EXC-18d269c51a",
+          "rev": 1
+        }
+      ],
+      "problem": [
+        {
+          "id": "EXC-18d269c51a",
+          "rev": 1
+        }
+      ],
+      "resulting_context": [
+        {
+          "id": "EXC-18d269c51a",
+          "rev": 1
+        }
+      ],
+      "solution": [
+        {
+          "id": "EXC-18d269c51a",
+          "rev": 1
+        }
+      ]
+    },
+    "context": "Urgent changes crossing service and release teams.",
+    "controls": "Candidate organizational control: documented responsibility. Possible evidence: timestamped decision log. GAO Green Book, https://www.gao.gov/greenbook, is a relevant public input for a specialist to vet; no conformance claim.",
+    "costs": "Coordination time and log maintenance.",
+    "date": "2026-11-17T13:16:03.671171+00:00",
+    "exceptions": "A log cannot resolve disputed authority.",
+    "forces": "Fast delivery; accountable authority; limited coordination time.",
+    "id": "PAT-7d0b3520dc",
+    "instances": "Fictional patch and rehearsal described in the evidence.",
+    "license": "CC0-1.0",
+    "name": "A named decision lane",
+    "problem": "Urgency obscures who can decide or stop a change.",
+    "relationships": [
+      {
+        "target": "PAT-6f62d68266",
+        "type": "supporting"
+      },
+      {
+        "target": "PAT-fc90121788",
+        "type": "supporting"
+      }
+    ],
+    "resulting_context": "Teams have a visible decision route for this change.",
+    "rev": 2,
+    "solution": "Name a decision owner and stop authority before work begins; keep their decisions in a shared log."
+  },
+  "review": {
+    "checks": {
+      "consent": true,
+      "disclosure": true,
+      "licensing": true,
+      "redaction": true
+    },
+    "date": "2026-11-17T13:16:03.676883+00:00",
+    "note": "Reviewed original fictional summaries and original pattern wording; no real participant information. CC0-1.0 applies to the demo content.",
+    "reviewer": "Demo reviewer"
+  },
+  "schema_version": "1.0"
+}
